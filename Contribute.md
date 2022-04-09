@@ -19,7 +19,7 @@ Let's say that you want to add the functionality of making a text file containin
    + 14 | - [`HelloWorld.txt`](./HelloWorld.txt)
    + 15 |   - A text file with "Hello World"
    ```
-4. Try to implement it with the Hacks api with `<Module>.py`
+4. Try to implement it with the Hacks api with `/Hacks/<Module>.py`
    ```py
    + Hacks/HelloWorld.py:
    + 1  | from .Framework import *
