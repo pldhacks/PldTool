@@ -1,4 +1,4 @@
-PldTool, a tool tp aid in hacking plds
+PldTool, a tool to aid in hacking plds
 Copyright (C) 2022  pldhacks@github
 
 This program is free software: you can redistribute it and/or modify
