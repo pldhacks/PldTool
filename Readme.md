@@ -51,7 +51,9 @@ The following command will unmount the system drive.
 Remember to unmount, as shutting the system down will not properly flush all the data to disk!
 
 ## TODOs
-- Make the hacking framework modular, and allow hacks to be easily and cleanly added.
+- Add a patch for blocksi?
+	- Challenges:
+		- Chrome automatically fixes the extension if it is tampered with...
 
 ## License
 This project uses the GPLv3
