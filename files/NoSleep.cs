@@ -20,6 +20,7 @@ namespace NoShut
 			};
 
 			Console.WriteLine("Keep this console open! It stops the pld from shutting down at 11pm :)");
+			Console.WriteLine("How this works: https://github.com/pldhacks/PldTool/blob/main/Hacks/Teams.md");
 
 			for (;;){
 				Process.Start(startInfo);
