@@ -7,6 +7,6 @@
 	- This will change the sticky keys executable to cmd, allowing access to the admin shell when sticky keys is spammed at the login screen. 
 		- This allows you to create new admin users, and freely use your PLD:
 		  ```sh
-		  net user /add <user> <paassword>
-		  net localgroup Admintsrators /add <user>
+		  net user /add <user> <password>
+		  net localgroup Administrators /add <user>
 		  ```
