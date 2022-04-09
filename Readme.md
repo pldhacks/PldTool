@@ -55,6 +55,9 @@ Remember to unmount, as shutting the system down will not properly flush all the
 	- Challenges:
 		- Chrome automatically fixes the extension if it is tampered with...
 
+## Questions?
+Ask [here!](https://github.com/pldhacks/PldHacking/discussions)
+
 ## License
 This project uses the GPLv3
 
