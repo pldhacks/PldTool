@@ -1,4 +1,4 @@
-# (Teams)[./Teams.py] exploits
+# [Teams](./Teams.py) exploits
 - `./pld.py --break-teams`:
 	- Replaces the `Update.exe` that autolaunches on boot with `nop.exe`
 - `./pld.py --nosleep`:
