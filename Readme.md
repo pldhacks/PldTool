@@ -38,12 +38,12 @@ If the pld is not encrypted with bitlocker, the command is very simple:
 Full hacks list [here](./Hacks/Index.md)
 
 ### Mounting the PLD system drive for experimentation or manual hack application
-The following command will leave the pld system drive mounted in `./windows-mnt`, and the dislocker file in `./dislocker-mnt`, if the drive was mounted with the `--bitlocker` argument.
+The following command will leave the pld system drive mounted in `./windows-mnt`, and the dislocker file in `./dislocker-mnt`, if the drive was mounted with the `--bitlocker` argument. This works as it disables the automatic unmounting, leaving the drive mounted as it is not unmounted at the end of the run.
 ```bash
 ./pld.py --leave-mount [--bitlocker 991262-991262-991262-991262-991262-991262-991262-991262]
 ```
 
-The following command will unmount the system drive.
+The following command will unmount the system drive, assuming it is already mounted. This unmounts the drive as it just skips the automatic mounting, leaving only the automatic unmounting
 ```bash
 ./pld.py --no-mount
 ```
