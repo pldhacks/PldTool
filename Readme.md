@@ -8,7 +8,7 @@ This software is experimental, and has a non-zero chance of screwing something u
 ## Requirements
 ### Physical
 This script requires the PLD system drive to be plugged into a host device running linux. This can be acheived in the following ways:
-- Having a linux dual-boot in the pld (recommended)
+- Booting linux on the pld (recommended)
 - Taking apart the pld
 
 ### Packages
