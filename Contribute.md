@@ -4,7 +4,7 @@ Let's say that you want to add the functionality of making a text file containin
 1. Create a markdown file documenting the feature you want to add, in `Hacks/<Module>.md`
    ```md
    + Hacks/HelloWorld.md:
-   + 1 | # (HelloWorld)[HelloWorld.py] exploits
+   + 1 | # [HelloWorld](HelloWorld.py) exploits
    + 2 | - `./pld.py --hello-world`:
    + 2 |   - Places a text file with "hello world" into the root of the system drive
    ```
@@ -43,3 +43,4 @@ Let's say that you want to add the functionality of making a text file containin
    ```py
    Hacks/__init__.py:
    + 4 | from .HelloWorld import *
+   ```
