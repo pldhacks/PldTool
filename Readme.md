@@ -56,4 +56,4 @@ Remember to unmount, as shutting the system down will not properly flush all the
 ## License
 This project uses the GPLv3
 
-# Please [contribute](Contribute) and allow this project to g r o w!
+# Please [contribute](Contribute.md) and allow this project to g r o w!
