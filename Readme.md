@@ -54,6 +54,7 @@ Remember to unmount, as shutting the system down will not properly flush all the
 - Add a patch for blocksi?
 	- Challenges:
 		- Chrome automatically fixes the extension if it is tampered with...
+		- Cant change ntfs ALCs from linux ntfs-3g
 
 ## Questions?
 Ask [here!](https://github.com/pldhacks/PldHacking/discussions)
