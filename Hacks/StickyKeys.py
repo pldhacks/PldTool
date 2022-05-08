@@ -41,4 +41,5 @@ def ractions(self,args):
 
 stickyhack.priority=-0.1 #last
 stickydo.priority=-0.2
-stickymines.priority=-0.3 #first
+stickymines.priority=-0.3 
+stickyactions=-0.4 #first
