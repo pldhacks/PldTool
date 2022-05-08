@@ -28,6 +28,17 @@ def rmine(self,args):
 	info("Overwriting sticky keys (mines)...")
 	handleBash(f"dd if=./files/winmineXP.exe of=./windows-mnt/Windows/System32/sethc.exe")
 
+# This replaces sticky keys with Actions.exe
+stickyactions=SimpleHack("sticky-actions","Replace sticky keys with an executable with a few useful functions.")
+hacks.addHack(stickyactions)
+
+@stickyactions.hack
+def ractions(self,args):
+	info("Putting minesweeper in sys32...")
+	handleBash("cp ./files/winmineXP.exe ./windows-mnt/Windows/System32/")
+	info("Overwriting sticky keys (actions)...")
+	handleBash(f"dd if=./files/Actions.exe of=./windows-mnt/Windows/System32/sethc.exe")
+
 stickyhack.priority=-0.1 #last
 stickydo.priority=-0.2
 stickymines.priority=-0.3 #first

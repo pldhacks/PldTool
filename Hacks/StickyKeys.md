@@ -10,3 +10,8 @@
 		  net user /add <user> <password>
 		  net localgroup Administrators /add <user>
 		  ```
+- `./pld.py --sticky-actions` (Change sticky keys to a menu of actions)
+	- This will make sticky keys summon a menu that allows the user to 
+		- Play minesweeper
+		- Readmin a user after it is broken by a windows update
+		- Open the command prompt
